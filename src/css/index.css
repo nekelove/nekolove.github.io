@@ -1,0 +1,45 @@
+/*font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+/*font-family: 'Amatic SC', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+/*font-family: 'Press Start 2P', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*font-family: 'Poor Story', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+body {
+  overflow: hidden;
+  font-family: 'Amatic SC', cursive;
+  background: url('../../misc/gif/bg.gif') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item {
+  color: rgb(37, 33, 33);
+  font-size: 4em;
+}
+
+#app {
+  position: absolute;
+  z-index: 4;
+}
+
+#neko {
+  position: relative;
+  z-index: 1;
+}
